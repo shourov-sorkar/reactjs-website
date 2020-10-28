@@ -5,11 +5,11 @@ import digital from "../src/images/digital.png";
 import graphics from "../src/images/graphics.jpg";
 import ai from "../src/images/ai.jpg";
 
-const Sdata  = [
+const Sdata = [
     {
         imgsrc: web,
         title: "Web Development",
-        atext:"We will be create your web application from scratch. If you have idea about what you need to do, share us.",
+        atext: "We will be create your web application from scratch. If you have idea about what you need to do, share us.",
     },
     {
         imgsrc: app,
@@ -19,7 +19,7 @@ const Sdata  = [
     {
         imgsrc: banking,
         title: "Banking Solution",
-        atext:"Customized software solutions tailored for your unique banking & financial business needs.",
+        atext: "Customized software solutions tailored for your unique banking & financial business needs.",
     },
     {
         imgsrc: digital,
@@ -34,7 +34,7 @@ const Sdata  = [
     {
         imgsrc: ai,
         title: "AI/Ml Solution",
-        atext:"Machine Learning and Artificial Intelligence solution for your organization by experts hand.",
+        atext: "Machine Learning and Artificial Intelligence solution for your organization by experts hand.",
     },
 ];
 

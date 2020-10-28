@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
-body{
+
+body {
     background-color: #f1f2f6;
 }
-.navbar {
-    background-color: #f1f2f6 !important;
-}
 
-.navbar-brand img{
+
+.navbar-brand img {
     height: 30px;
     width: 135px;
+}
+
+.navbar-brand .name {
+    visibility: hidden;
 }
 
 .brand-name {
@@ -35,33 +39,41 @@ body{
 .navbar a:hover {
     color: #3498db !important;
 }
-#header{
+
+#header {
     height: 90vh;
 }
-#header h1{
+
+#header h1 {
     margin: 0 0 10px 0;
 }
-#header .header-img img{
+
+#header .header-img img {
     height: 400px;
     width: 400px;
-    font-size: 48px;  
+    font-size: 48px;
 }
-#header .header-img .animated{
+
+#header .header-img .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-@-webkit-keyframes up-down{
-    0%{
+
+@-webkit-keyframes up-down {
+    0% {
         transform: translateY(10px);
     }
-    100%{
+
+    100% {
         transform: translateY(-10px);
     }
 }
-@keyframes up-down{
-    0%{
+
+@keyframes up-down {
+    0% {
         transform: translateY(10px);
     }
-    100%{
+
+    100% {
         transform: translateY(-10px);
     }
 }
@@ -84,46 +96,58 @@ body{
     color: #fff !important;
 }
 
+/* about Section    */
+.carousel-img {
+    height: 91vh;
+}
+
+/* about Section    */
 
 /* Service Section    */
 
-.card{
+.card {
     width: 90%;
     height: 400px;
     border: 1px solid #3498db;
     border-radius: 10px;
     box-shadow: 1px 1px 5px;
     transition: 0.9s;
-    
+
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 5px 5px 10px;
 }
-.card img{
+
+.card img {
     width: 100%;
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+
 }
-.card-btn{
+
+.card-btn {
     background-color: transparent;
     color: #000000 !important;
     border: 1px solid #3498db;
     transition: 0.9s;
 }
-.card-btn:hover{
+
+.card-btn:hover {
     background-color: #3498db;
     color: #fff !important;
 }
 
-
+/* Service Section    */
 
 /*Media query*/
 @media(max-width: 991px) {
-    .navbar-brand {
-        font-size: 1.5rem !important;
+    .navbar-brand img {
+        display: none;
     }
+
+    .navbar-brand {}
 
     .menu_active {
         font-weight: bold;
@@ -155,15 +179,29 @@ body{
         margin: -25px 0 0 -25px;
         position: absolute;
     }
-    .navbar-brand img{
+
+    .navbar-brand img {
         height: 30px;
-    width: 135px;
+        width: 135px;
     }
-    .card{
+
+    .card {
         height: 430px;
         width: 100%;
-        
-    
+
+
+    }
+
+    .carousel-img {
+        height: 50vh;
+    }
+
+    .btn-get-started {
+        border: 2px solid #fff;
+    }
+
+    .navbar-brand .name {
+        visibility: visible;
     }
 
 }
