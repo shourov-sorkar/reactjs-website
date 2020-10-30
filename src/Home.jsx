@@ -10,7 +10,7 @@ const Home = () => {
                         <div className="col-10 mx-auto home-section">
                             <div className="row d-flex align-items-center h-100">
                                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                                    <h1>Grow your business with <strong className="brand-name">The BitCode</strong></h1>
+                                    <h1>Let's get started with <strong className="brand-name">The BitCode</strong></h1>
                                     <h2 className="my-3">We are the team of Creative developer making interactive websites</h2>
                                     <div className="mt-3">
                                         <NavLink to="/services" className="btn-get-started">Get Started</NavLink>

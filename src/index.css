@@ -101,7 +101,19 @@ body {
 /* about Section    */
 .carousel-img {
     height: 87.5vh !important;
+}
 
+.carousel-caption{
+    margin-bottom: 180px;
+}
+.carousel-caption h3{
+    font-size: 4rem;
+    font-weight: 800;
+    
+}
+.carousel-caption p{
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 /* about Section    */
@@ -112,7 +124,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
   }
   
 /* Service Section    */
@@ -213,10 +225,10 @@ body {
 
 
     }
-
     .carousel-img {
-        height: 91vh !important;
+        height: 92vh !important;
         overflow: hidden !important;
+
     }
 
     .btn-get-started {
@@ -228,6 +240,17 @@ body {
     }
     .btn-outline-primary{
         border: 1px solid #fff;
+    }
+    .carousel-caption{
+        margin-bottom: 180px;
+    }
+    .carousel-caption h3{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .carousel-caption p{
+        font-size: 1rem;
+        font-weight: 400;
     }
 
 }

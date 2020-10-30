@@ -26,8 +26,8 @@ const Contact = () => {
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your massage "></textarea>
                         </div>
                         <div class="col-12">
-    <button class="btn btn-outline-primary" type="submit">Submit form</button>
-  </div>
+                            <button class="btn btn-outline-primary" type="submit">Submit form</button>
+                        </div>
                     </div>
 
                 </div>

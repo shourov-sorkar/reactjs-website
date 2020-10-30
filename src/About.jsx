@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../node_modules/react-bootstrap/Carousel";
+import { NavLink } from "react-router-dom";
 import slide from "../src/images/slide1.jpg";
 import slide1 from "../src/images/slide2.jpg";
 import slide2 from "../src/images/slide3.jpg";
@@ -17,9 +18,12 @@ const About = () => {
                         />
                         <div className="overlay"></div>
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Let Us know Your Story</h3>
+                            <p>Web Development | Web Design | Mobile Application</p>
+                            <NavLink to="" class="btn btn-primary card-btn btn2">Learn More</NavLink>
                         </Carousel.Caption>
+
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={500}>
                         <img
@@ -28,10 +32,12 @@ const About = () => {
                             alt="Third slide"
                         />
                         <div className="overlay"></div>
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <Carousel.Caption >
+                            <h3>Let's grow your business with The BitCode</h3>
+                            <p>Websites promote you 24/7: No employee will do that</p>
+                            <NavLink to="" class="btn btn-primary card-btn">Learn More</NavLink>
                         </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -40,10 +46,12 @@ const About = () => {
                             alt="Third slide"
                         />
                         <div className="overlay"></div>
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <Carousel.Caption >
+                            <h3>We're Passionate</h3>
+                            <p>We love what we do and we do what our clients love and work with great clients all over the world to create thoughtful and purposeful websites</p>
+                            <NavLink to="" class="btn btn-primary card-btn btn2">Learn More</NavLink>
                         </Carousel.Caption>
+                        
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -52,10 +60,13 @@ const About = () => {
                             alt="Fourth slide"
                         />
                         <div className="overlay"></div>
-                        <Carousel.Caption>
-                            <h3>Fourth slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <Carousel.Caption >
+                            <h3>We're Professional</h3>
+                            <p>Web design is not just about creating pretty layouts. It’s about understanding the marketing challenge behind your business</p>
+                            <NavLink to="" class="btn btn-primary card-btn btn2">Learn More</NavLink>
                         </Carousel.Caption>
+                       
+
                     </Carousel.Item>
                 </Carousel>
 
