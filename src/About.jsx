@@ -8,13 +8,14 @@ const About = () => {
     return (
         <>
             <div className="container-fluid-xl">
-                <Carousel className>
+                <Carousel >
                     <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100 carousel-img"
                             src={slide}
                             alt="First slide"
                         />
+                        <div className="overlay"></div>
                         <Carousel.Caption>
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -26,6 +27,7 @@ const About = () => {
                             src={slide1}
                             alt="Third slide"
                         />
+                        <div className="overlay"></div>
                         <Carousel.Caption>
                             <h3>Second slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -37,6 +39,7 @@ const About = () => {
                             src={slide2}
                             alt="Third slide"
                         />
+                        <div className="overlay"></div>
                         <Carousel.Caption>
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -48,6 +51,7 @@ const About = () => {
                             src={slide3}
                             alt="Fourth slide"
                         />
+                        <div className="overlay"></div>
                         <Carousel.Caption>
                             <h3>Fourth slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
